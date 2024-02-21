@@ -31,7 +31,7 @@ def operaciones(numero_1: float, numero_2: float): # Función
       return(numero_1 // numero_2) # Retorna operación de los dos números 
     else: # Caso que sea diferente
       print("Lo siento, ingresaste una opereación incorrecta") # Enseña que cometió un erorr
-      eleccion = int(input("Ingresa la operación que quieras asociada a su número")) # Repite el ingreso del dato
+      eleccion = input("Ingresa la operación que quieras asociada a su número") # Repite el ingreso del dato
 
 if __name__ == "__main__": # Función Main
   numero_1 = float(input("Ingresa un número: ")) # Ingresar primer número
