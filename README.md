@@ -178,7 +178,7 @@ if __name__ == "__main__": # Función main
   datos = int(input("Ingresa las pañabras que deseas agregar: ")) # Ingrese el número de palabras que quiere agregar
   lista = [] # Lista vacia
   for n in range(datos): # Ciclo for para agregar el número de datos
-    palabra = input("Ingresa el número: ") # Ingresa las palabras
+    palabra = input("Ingresa la palabra: ") # Ingresa las palabras
     lista.append(palabra) # Agregarlo a la lista
   print("Esta es tu lista: \n"+ str(lista)) # Imprime la lista
   ejec =  palabras_con_mismos_caracteres(lista) # Ejecuta el resultado   
